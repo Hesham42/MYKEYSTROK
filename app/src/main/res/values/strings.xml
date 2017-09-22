@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">MYKEYSTROK</string>
+    <!-- Title for Latin keyboard  -->
+    <string name="ime_name">BioKeyboard</string>
+
+    <!-- Symbols that are commonly considered word separators in this language -->
+    <string name="word_separators">\u0020.,;:!?\n()[]*&amp;@{}/&lt;&gt;_+=|&quot;</string>
+
+    <!-- Labels on soft keys -->
+    <string name="label_go_key">Go</string>
+    <string name="label_next_key">Next</string>
+    <string name="label_send_key">Send</string>
+
+    <!-- Labels for subtype -->
+    <string name="label_subtype_generic">%s</string>
+    <string name="label_subtype_en_GB">English (GB)</string>
+
+    <!-- Titles for ImePreference -->
+    <string name="settings_name">BioKeyboard Settings</string>
+    <string name="language_selection_title">Input languages</string>
+    <string name="select_language">Select input languages</string>
+    <string name="general_category">General</string>
+
+    <string name="pref_identity_title">Username</string>
+    <string name="pref_identity_ok">Save</string>
+    <string name="pref_identity_cancel">Cancel</string>
+
+    <string name="pref_export_over_network_title">Export data over the network</string>
+    <string name="pref_export_over_network_summary">Transmit all the data currently stored in the database via the network</string>
+    <string name="pref_export_to_storage_title">Export data to the storage</string>
+    <string name="pref_export_to_storage_summary">Save all the currently stored data to the local storage</string>
+    <string name="pref_clear_database_title">Clear the databse</string>
+    <plurals name="pref_clear_database_summary">
+        <item quantity="one">%d record in the database</item>
+        <item quantity="other">%d records in the database</item>
+    </plurals>
+
+    <string name="dialog_confirmation_clear_database">Clear the database?</string>
+    <string name="dialog_confirmation_clear_database_ok">Clear</string>
+    <string name="dialog_confirmation_clear_database_cancel">Cancel</string>
+
+    <string name="dialog_send_data_title">Enter your login</string>
+    <string name="dialog_send_data_field_hint">Your login</string>
+    <string name="dialog_send_data_send">Send</string>
+    <string name="dialog_send_data_cancel">Cancel</string>
+
+    <string name="dialog_start_logging_title">Attention</string>
+    <string name="dialog_start_logging_info">This keyboard logs your input for research purposes. If the email address below does not belong to you, go to the keyboard settings to change the email address: Settings->Language &amp; input->BioKeyboard->Username</string>
+    <string name="dialog_start_logging_confirm">Agree</string>
+    <string name="dialog_start_logging_cancel">Cancel</string>
+
+    <string name="toast_export_over_network_success">Transmitted all the data</string>
+    <string name="toast_export_over_network_failure">Couldn\'t transmit the data</string>
+    <string name="toast_export_to_storage_success">Saved the data to the local storage</string>
+    <string name="toast_export_to_storage_failure">Couldn\'t save the data to the local storage</string>
+
+</resources>

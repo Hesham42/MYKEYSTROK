@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_name">
+    <EditTextPreference
+        android:title="@string/pref_identity_title"
+        android:key="@string/pref_identity_key"
+        android:negativeButtonText="@string/pref_identity_cancel"
+        android:positiveButtonText="@string/pref_identity_ok"
+        />
+    <PreferenceScreen
+        android:title="@string/pref_export_over_network_title"
+        android:key="@string/pref_export_over_network_key"
+        android:summary="@string/pref_export_over_network_summary"
+        />
+    <PreferenceScreen
+        android:title="@string/pref_export_to_storage_title"
+        android:key="@string/pref_export_to_storage_key"
+        android:summary="@string/pref_export_to_storage_summary"
+        />
+    <PreferenceScreen
+        android:title="@string/pref_clear_database_title"
+        android:key="@string/pref_clear_database_key"
+        />
+</PreferenceScreen>
